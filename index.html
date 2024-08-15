@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>book animation</title>
+</head>
+<body>
+    <input type="checkbox" id="checkbox-cover">
+    <input type="checkbox" id="checkbox-page1">
+    <input type="checkbox" id="checkbox-page2">
+    <input type="checkbox" id="checkbox-page3">
+    <div class="book">
+        <div class="cover">
+            <label for="checkbox-cover"></label>
+        </div>
+        <div class="page" id="page1">
+            <div class="front-page">
+                <img src="./indipendence day.png">
+                <label class="next" for="checkbox-page1">></label>
+            </div>
+            <div class="back-page">
+                <img class="india" src="./india.png">
+                <label class="prev" for="checkbox-page1"><</label>
+            </div>
+        </div>
+        <div class="page" id="page2">
+            <div class="front-page">
+                <h3>About India</h3>
+                <p >India is a culturally diverse and historically rich country in South Asia. It’s the seventh-largest nation by area and
+                the second-most populous. Known for its ancient civilizations like the Indus Valley, India is the birthplace of major
+                religions such as Hinduism, Buddhism, and Sikhism. The country gained independence from British rule in 1947. Today, it
+                boasts a fast-growing economy, especially in IT and space exploration. India’s cuisine, languages, and festivals are
+                globally celebrated. Iconic landmarks like the Taj Mahal and spiritual hubs like Varanasi attract millions of visitors.
+                Despite challenges, India continues to thrive as the world’s largest democracy.</p>
+                <label class="next" for="checkbox-page2">></label>
+            </div>
+            <div class="back-page">
+                <img src="./cover.png">
+                <label class="prev" for="checkbox-page2"><</label>
+            </div>
+        </div>
+        <div class="page" id="page3">
+            <div class="front-page">
+                <h2>Independence day</h2>
+                <p>India's Independence Day, celebrated on August 15th, marks the nation's freedom from British rule in 1947. It’s a day of
+                immense pride and patriotism, honoring the sacrifices of freedom fighters like Mahatma Gandhi, Jawaharlal Nehru, Sardar
+                Patel, and countless others who fought for India’s sovereignty. The day is celebrated with flag hoisting ceremonies,
+                parades, and cultural events across the country. The Prime Minister’s address from the Red Fort in Delhi is a key
+                highlight, emphasizing unity, progress, and the vision for a stronger India. Independence Day is not just a reminder of
+                the past but also a time to reflect on India’s journey as a vibrant democracy and its aspirations for the future.</p>
+            </div>
+        </div>
+        <div class="back-cover"></div>
+    </div>
+</body>
+</html>
